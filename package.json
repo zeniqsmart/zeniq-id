@@ -16,6 +16,10 @@
     "docs": "typedoc src --out docs",
     "test": "jest --config jestconfig.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeniqsmart/zeniq-id.git"
+  },
   "author": "dev4@zeniq.com (https://zeniq.com/)",
   "license": "ISC",
   "devDependencies": {
