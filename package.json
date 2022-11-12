@@ -1,0 +1,39 @@
+{
+  "name": "zeniq-id",
+  "version": "0.0.2",
+  "description": "ZENIQ library used for handling the communication with the Zeniq-App",
+  "main": "dist/zeniq-id.cjs.js",
+  "module": "dist/zeniq-id.esm.js",
+  "browser": "dist/zeniq-id.umd.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "build:types": "rm -rf build && tsc -p ./tsconfig.json --outDir build --declaration true && api-extractor run",
+    "docs": "typedoc src --out docs",
+    "test": "jest --config jestconfig.json"
+  },
+  "author": "dev4@zeniq.com (https://zeniq.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/express": "^4.17.14",
+    "@types/jest": "^29.1.1",
+    "eslint": "^8.24.0",
+    "express": "^4.18.1",
+    "jest": "^29.1.2",
+    "rollup": "^2.79.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4",
+    "ws": "^8.8.1",
+    "typedoc": "^0.23.15",
+    "@microsoft/api-extractor": "^7.32.0"
+  }
+}
