@@ -2,13 +2,11 @@
   "name": "zeniq-id",
   "version": "0.0.4",
   "description": "ZENIQ library used for handling the communication with the Zeniq-App",
-  "main": "zeniq-id.cjs.js",
-  "module": "zeniq-id.esm.js",
-  "browser": "zeniq-id.umd.js",
+  "main": "dist/zeniq-id.cjs.js",
+  "module": "dist/zeniq-id.esm.js",
+  "browser": "dist/zeniq-id.umd.js",
   "types": "build/index.d.ts",
-  "files": [
-    "dist/**/*"
-  ],
+  "files": ["dist/*"],
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",

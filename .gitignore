@@ -2,7 +2,3 @@ node_modules
 build
 dist
 docs
-/index.d.ts
-/zeniq-id.cjs.js
-/zeniq-id.esm.js
-/zeniq-id.umd.js
