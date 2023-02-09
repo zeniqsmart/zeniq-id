@@ -14,21 +14,21 @@ function initializeNonceSocketMap(): INonceSocket[] {
 /**
  * Adds a new entry into the given nonce-socket map
  * @param nonce The nonce generated for the socket
- * @param socket The socket object {@link IWebSocket}
+ * @param socket The socket object {@link any}
  * @param nonceSocketMap The nonce-socket map {@link INonceSocket}
  */
-function addSocketToNonceSocketMap(nonce: string, socket: IWebSocket, nonceSocketMap: INonceSocket[]): void {
+function addSocketToNonceSocketMap(nonce: string, socket: any, nonceSocketMap: INonceSocket[]): void {
   nonceSocketMap.push({ nonce: nonce, socket: socket });
 }
 
 /**
- * Get a socket object {@link IWebSocket} from the socket map {@link INonceSocketMap} or undefined
+ * Get a socket object {@link any} from the socket map {@link INonceSocketMap} or undefined
  * if socket object does not exist
  * @param nonce The nonce used to identify the socket object
  * @param nonceSocketMap The nonce-socket map to retrieve the socket object 
  * @returns a socket object or undefined if no socket object is found in the given nonce-socket map
  */
-function getSocketFromNonceSocketMap(nonce: string, nonceSocketMap: INonceSocket[]): IWebSocket | undefined {
+function getSocketFromNonceSocketMap(nonce: string, nonceSocketMap: INonceSocket[]): any | undefined {
   const mapEntry = nonceSocketMap.find(s => s.nonce === nonce);
   return mapEntry?.socket;
 }
