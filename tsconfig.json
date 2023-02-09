@@ -5,9 +5,7 @@
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "types": ["node", "jest"],
-    "declaration": true,
-    "outDir": "./dist"
+    "types": ["node", "jest"]
   },
   "exclude": ["__tests__", "mock"]
 }

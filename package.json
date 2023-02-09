@@ -6,10 +6,8 @@
   "module": "dist/zeniq-id.esm.js",
   "browser": "dist/zeniq-id.umd.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "files": [
     "dist",
-    "LICENSE",
     "README.md",
     "package.json"
   ],
