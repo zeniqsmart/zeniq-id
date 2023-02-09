@@ -12,7 +12,7 @@ export interface IWebSocket extends WebSocket {
  */
 export interface INonceSocket {
   nonce: string,
-  socket: IWebSocket
+  socket: any
 }
 
 /**
