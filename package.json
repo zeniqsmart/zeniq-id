@@ -1,6 +1,6 @@
 {
   "name": "zeniq-id",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ZENIQ library used for handling the communication with the Zeniq-App",
   "main": "dist/zeniq-id.cjs.js",
   "module": "dist/zeniq-id.esm.js",
