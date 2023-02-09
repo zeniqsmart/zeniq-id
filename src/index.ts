@@ -7,6 +7,7 @@ export { IScanReturn } from './interfaces/common';
 export { IExecuteReturn } from './interfaces/common';
 export { EStatusCode } from './enums/common';
 
+
 // core exports
 export { authorize } from './core/authorize';
 export { initializeNonceSocketMap } from './core/map';
