@@ -1,3 +1,8 @@
+# Deprecation Notice
+
+This package is deprecated because it has been superseded by https://github.com/nomo-app/nomo-id.
+Please upgrade your application to nomo-id if you are still using this package!
+
 # Overview
 
 This library is designed for developers to integrate the [Nomo ZENIQ mobile app](https://play.google.com/store/apps/details?id=com.zeniq.app&hl=en&gl=US) into their applications. The mobile app uses the ZENIQ ID System Protocol. This protocol specifies how developers can interact with the mobile app. This documentation will first explain the core concept of the ZENIQ ID System Protocol. Afterwards we will explain the general workflow for integrating the mobile app into your application.
